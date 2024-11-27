@@ -1,0 +1,12 @@
+stack=[]
+stack.append("a")
+stack.append("b")
+stack.append("c")
+stack.append("d")
+print("stack after appending",stack)
+print("element popped fromstack:")
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+print("stack after popping poped:")
+print(stack)

@@ -1,0 +1,10 @@
+queue=["\n"]
+queue.append("a")
+queue.append("b")
+queue.append("c")
+print("initial queue:",queue)
+print("Element dequered from queue")
+print(queue.pop(0))
+print(queue.pop(0))
+print(queue.pop(0))
+print("que after removing elements:",queue)

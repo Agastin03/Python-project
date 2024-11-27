@@ -1,0 +1,5 @@
+a=bool(int(input("enter the first boolean value(0 or 1):")))
+b=bool(int(input("enter the first boolean value(0 or 1):")))
+print("{a} and {b}:",{a and b})
+print("{a} or {b}:",{a or b})
+print("not {b}:",not{b})
